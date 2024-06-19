@@ -1,4 +1,6 @@
-﻿namespace BOOK_MANAGEMENT_SYSTEM.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace BookManagement.Models
 {
     public class Book
     {
@@ -11,6 +13,8 @@
         public Genre? Genre { get; set; }
 
         public DateTime PublishedDate { get; set; }
+
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
     }
 }

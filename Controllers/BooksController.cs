@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BOOK_MANAGEMENT_SYSTEM.Data;
-using BOOK_MANAGEMENT_SYSTEM.Models;
+using BookManagement.Data;
+using BookManagement.Models;
 
-namespace BOOK_MANAGEMENT_SYSTEM.Controllers
+namespace BookManagement.Controllers
 {
     public class BooksController : Controller
     {
