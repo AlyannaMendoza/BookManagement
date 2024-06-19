@@ -1,4 +1,4 @@
-using BOOK_MANAGEMENT_SYSTEM.Data;
+using BookManagement.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
